@@ -1,0 +1,16 @@
+@media (max-width: 576px) {
+    .coluna img {
+        max-width: 100%;
+    }
+
+    .anuncio-info {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .anuncio {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+    }
+ }

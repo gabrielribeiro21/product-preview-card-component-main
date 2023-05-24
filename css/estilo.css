@@ -1,0 +1,97 @@
+.anuncio {
+    display: flex;
+    width: 960px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: relative;
+    left: 25%;
+}
+
+
+.coluna img {
+    max-width: 105%;
+    border-top-left-radius: 3%;
+    border-end-start-radius: 3%;
+}
+
+.anuncio-info {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
+    max-width: 50%;
+}
+
+.perfume {
+    font-family: 'Fira Code', monospace;
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Public Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #ccc;
+    margin-left: 25px;
+    font-size: 23px;
+    font-weight: 100;
+}
+
+.texto {
+    font-family: 'Montserrat', sans-serif;
+    color: #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin-left: 25px;
+}
+
+.preco {
+    display: flex;
+    flex-direction: row;
+}
+
+.valor-1 {
+    font-family: 'Fira Code', monospace;
+    font-family: 'Fraunces', serif;
+    color: green;
+    margin-left: 25px;
+    font-size: 25px;
+}
+
+.valor-2 {
+    margin-left: 15px;
+    text-decoration: line-through;
+    color: #ccc;
+}
+
+.coluna {
+    display: flex;
+    width: 100%;
+    flex: 0 1 800px;
+}
+
+.nome-produto {
+    font-family: 'Fira Code', monospace;
+    font-family: 'Fraunces', serif;
+    font-size: 35px;
+    margin-left: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.botao {
+    padding: 15px;
+    width: 60%;
+    height: 10%;
+    font-size: 20px;
+    
+    color: white;
+    background-color: green;
+    border-radius: 3%;
+    margin-left: 25px;
+}
+
