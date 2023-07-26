@@ -1,12 +1,16 @@
+html {
+    background-color: hsl(30, 38%, 92%);
+}
+
 .anuncio {
     display: flex;
     width: 960px;
-    max-width: 100%;
+    max-width: 50%;
     flex-wrap: wrap;
     margin-left: 20px;
     margin-top: 20px;
     position: relative;
-    left: 25%;
+    left: 20%;
 }
 
 
@@ -14,6 +18,10 @@
     max-width: 105%;
     border-top-left-radius: 3%;
     border-end-start-radius: 3%;
+}
+
+.image-mobile {
+    display: none;
 }
 
 .anuncio-info {
@@ -26,24 +34,23 @@
 }
 
 .perfume {
-    font-family: 'Fira Code', monospace;
     font-family: 'Fraunces', serif;
     font-family: 'Montserrat', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Public Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    color: #ccc;
+    color: hsl(228, 12%, 48%);
     margin-left: 25px;
-    font-size: 23px;
+    font-size: 18px;
+    letter-spacing: 8px;
     font-weight: 100;
 }
 
 .texto {
     font-family: 'Montserrat', sans-serif;
-    color: #ccc;
+    height: 300;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
     display: flex;
     flex-wrap: wrap;
-    width: 60%;
+    width: 80%;
     margin-left: 25px;
 }
 
@@ -53,9 +60,8 @@
 }
 
 .valor-1 {
-    font-family: 'Fira Code', monospace;
     font-family: 'Fraunces', serif;
-    color: green;
+    color: hsl(158, 36%, 37%);
     margin-left: 25px;
     font-size: 25px;
 }
@@ -63,7 +69,8 @@
 .valor-2 {
     margin-left: 15px;
     text-decoration: line-through;
-    color: #ccc;
+    color: hsl(228, 12%, 48%);
+    font-family: 'Fraunces', serif;
 }
 
 .coluna {
@@ -84,14 +91,14 @@
 
 
 .botao {
-    padding: 15px;
-    width: 60%;
+    width: 80%;
     height: 10%;
-    font-size: 20px;
-    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    height: 300;
     color: white;
-    background-color: green;
-    border-radius: 3%;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 10px;
     margin-left: 25px;
 }
 

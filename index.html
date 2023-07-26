@@ -9,6 +9,7 @@
   <title>Frontend Mentor | Product preview card component</title>
   <link rel="stylesheet" href="css/estilo.css">
   <link rel="stylesheet" href="css/responsivo.css">
+  <i class="far fa-shopping-cart" style="color: #ffffff;"></i>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Fraunces:opsz,wght@9..144,700&family=Montserrat:ital,wght@0,700;1,500&family=Poppins:wght@300;400;500&family=Public+Sans:ital,wght@0,700;1,300&family=Roboto:wght@700&display=swap" rel="stylesheet">
@@ -23,33 +24,29 @@
 </head> -->
 <body>
 
-    <main class="anuncio">
-      <div class="coluna">
-            <picture>
-              <img src="images/image-product-desktop.jpg" alt="imagem do produto">
-            </picture>
+  <main class="anuncio">
+    <div class="coluna">
+        <picture>
+          <img class="image-desktop" src="images/image-product-desktop.jpg" alt="imagem do produto">
+          <img class="image-mobile" src="images/image-product-mobile.jpg" alt="imagem do produto">
+        </picture>
             
-          <div class="anuncio-info">
-            <h3 class="perfume">Perfume</h3>
+      <div class="anuncio-info">
+        <h3 class="perfume">PERFUME</h3>
 
-            <h3 class="nome-produto">Gabrielle Essence Eau De Parfum</h3>
+        <h3 class="nome-produto">Gabrielle Essence Eau De Parfum</h3>
 
-            <p class="texto"> A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-            Perfumer-Creator for the House of CHANEL.</p>
+        <p class="texto"> A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+        Perfumer-Creator for the House of CHANEL.</p>
 
-            <div class="preco">
-              <p class="valor-1">$149.99</p>
-              <p class="valor-2">$169.99</p>
-            </div>
-            <button class="botao">Add to Cart</button>
-          
-          </div>
+        <div class="preco">
+          <p class="valor-1">$149.99</p>
+          <p class="valor-2">$169.99</p>
+        </div>
+
+        <button class="botao">  Add to Cart</button>  
       </div>
-    </main>
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    </div>
+  </main>
 </body>
 </html>

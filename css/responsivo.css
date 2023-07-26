@@ -1,16 +1,48 @@
-@media (max-width: 576px) {
-    .coluna img {
-        max-width: 100%;
+@media (max-width: 545px) {
+    * {
+        padding: 0;
+        margin: 0;
     }
-
-    .anuncio-info {
-        display: flex;
-        flex-wrap: wrap;
+    
+    .image-desktop {
+        display: none;
+    }
+    
+    .image-mobile {
+        /* display: block; */
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 16px;
     }
 
     .anuncio {
-        display: flex;
-        flex-direction: row;
-        margin-left: 0px;
+        flex-direction: column;
+        align-items: center;
+        width: 600px;
+        height: 600px;
+        background-color: #ccc;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 20px;
+        margin: 0;
     }
- }
+
+    .anuncio-info {
+        text-align: center;
+        font-size: 10px;
+        background-color: #ccc;
+        display: block;
+    }
+
+    .texto {
+        
+    }
+
+    .botao {
+        width: 29vh;
+        margin: 0;
+    }
+
+}
